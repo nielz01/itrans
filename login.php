@@ -24,6 +24,8 @@
         </div>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form>
+          <p class="h1">Silahkan Login</p>
+
             <!-- username -->
             <div class="form-outline mb-4">
             <input class="form-control form-control-lg" type="username" name="username" placeholder="Username" autocomplete="off">

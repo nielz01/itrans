@@ -9,8 +9,15 @@
         <li class="nav-item">
           <a class="nav-link" href="<?=BASE_URL ?>admin/admin.php">Form Admin</a>
         </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="admin.php">Master Jabatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="admin.php">Form Karyawan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="admin.php">Laporan</a>
         </li>
        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="logout.php">Logout</a>

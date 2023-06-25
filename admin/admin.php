@@ -47,7 +47,8 @@ while($row = mysqli_fetch_assoc($hasil)){
 	echo "<td>$row[nama]</td>";
 	echo "<td>$row[username]</td>";
 	echo "<td>$row[password]</td>";
-	echo "<td><a class='btn btn-outline-primary' href='form_admin_edit.php?kodeadmin=$row[kodeadmin]'>EDIT</a> <a class='btn btn-outline-primary' href='action_hapus_dataAdmin.php?kodeadmin=$row[kodeadmin]'>HAPUS</a></td>";
+	echo "<td><a class='btn btn-outline-primary' href='form_admin_edit.php?kodeadmin=$row[kodeadmin]'>EDIT</a>
+	 <a class='btn btn-outline-primary' href='action_hapus_dataAdmin.php?kodeadmin=$row[kodeadmin]'>HAPUS</a></td>";
 	echo "</tr>";
 }
 ?>
