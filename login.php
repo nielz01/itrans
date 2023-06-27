@@ -24,7 +24,8 @@
         </div>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form>
-          <p class="h1">Silahkan Login</p>
+            
+          <p class="h1"> Halaman Login </p><br>
 
             <!-- username -->
             <div class="form-outline mb-4">
