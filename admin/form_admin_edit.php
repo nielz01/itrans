@@ -85,7 +85,8 @@ if (isset($_POST['submit'])) {
                             <label for="password" class="form-label">Password</label>
                             <input type="password" name="password" id="password" class="form-control" placeholder="Password" value="<?= $password ?>">
                         </div>
-                        <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+                        <button type="submit" class="btn btn-primary" name="submit">Submit</button> 
+                        <a  class="btn btn-primary"  href="<?=BASE_URL  ?>admin/admin.php"> Kembali</a>
                     </form>
                 </td>
             </tr>

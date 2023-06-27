@@ -11,7 +11,18 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="admin.php">Master Jabatan</a>
+          <a class="nav-link" href="admin.php">
+          <div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Form Master Jabatan
+  </button>
+  <ul class="dropdown-menu">
+    Add Jabatan
+  </ul>
+</div>
+  
+
+          </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="admin.php">Form Karyawan</a>
@@ -23,7 +34,7 @@
           <a class="nav-link" href="<?=BASE_URL ?>about_us.php">About Us</a>
         </li>
        <li class="nav-item">
-          <a class="nav-link active" aria-current="page"href="<?=BASE_URL ?>logout.php">Logout</a>
+          <a class="nav-link active" aria-current="page" href="<?=BASE_URL ?>logout.php">Logout</a>
         </li>
        
       </ul>

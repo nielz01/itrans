@@ -69,8 +69,9 @@ html {
   <p> PT Indonesia Comnets Plus (PLN Icon Plus)</p>
   <p>Pada tahun 2001, PLN Icon Plus memulai kegiatan komersialnya dengan Network Operation Centre yang berlokasi di Gandul, Cinere. Sebagai Entitas Anak PT PLN (Persero), pendirian PLN Icon Plus difokuskan untuk melayani kebutuhan PT PLN (Persero) terhadap jaringan telekomunikasi.</p>
 </div>
-
+<br>
 <h2 style="text-align:center">Our Team</h2>
+
 <div class="row">
   <div class="column">
     <div class="card">
