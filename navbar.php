@@ -19,8 +19,11 @@
         <li class="nav-item">
           <a class="nav-link" href="admin.php">Laporan</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?=BASE_URL ?>about_us.php">About Us</a>
+        </li>
        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="logout.php">Logout</a>
+          <a class="nav-link active" aria-current="page"href="<?=BASE_URL ?>logout.php">Logout</a>
         </li>
        
       </ul>
