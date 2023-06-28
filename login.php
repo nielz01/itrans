@@ -9,6 +9,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="csslogin.css"> -->
   <title>Login</title>
 </head>
 
@@ -62,7 +63,7 @@
                 $url = BASE_URL . 'index.php';
                 header("Location:$url");
               }else{
-                echo '<div class="alert alert-danger" role="alert">username dan password salah</div> ';
+                echo '<br><div class="alert alert-danger" role="alert">username dan password salah</div> ';
               }
         
             }  
